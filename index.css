@@ -1,0 +1,88 @@
+body, html {
+    height: 100%;
+}
+
+.bdr {
+  background-image: url("bdr.png");
+  height: 75%;
+  top:0;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+}
+
+.houseimage {
+    background-image: url("house1.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.beachquote {
+    background-image: url("beachquote.png");
+    height: 75%;
+    top:0;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.content {
+    position: absolute; /* Position the background text */
+ /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    height: 50%;
+    padding: 0px; /* Some padding */
+}
+
+p {
+    font-family: 'Noto Serif', serif; 
+}
+
+.sub {
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    position: static;
+    bottom: 20%;
+    left: 50%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+p > a {
+    color: white;
+    text-decoration: none;
+}
